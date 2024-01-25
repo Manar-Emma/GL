@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+.AdminChoose{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AdminChoose h1{
+    color: #ffffff;
+    font-family: 'Lora' , serif;
+    font-weight: normal;
+    font-size: 40px;
+}
+.twodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    padding-bottom: 56px;
+}
+.onediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0E15;
+    padding: 20px;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.onediv:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+}
+.AdminChoose .onediv h3{
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    font-weight: normal;
+    font-size: 25px;
+
+}
+.AdminChoose .ondiv img {
+    width: 100px;
+}
+.AdminChoose .onediv button{
+    background-color: #DAB650;
+    color: #0B0E15;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 7px;
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    
+}
+.AdminChoose .onediv a {
+    text-decoration: none;
+    font-family: 'Jost';
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 875px) {
+    .AdminChoose .onediv {
+      width: 40%;
+      
+    }
+  
+    .AdminChoose .onediv img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+@media (max-width: 735px) {
+    .AdminChoose .onediv {
+      width: 35%;
+      
+    }
+    .AdminChoose h1{
+        font-size: 30px;
+    }
+  
+    .AdminChoose .onediv img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  @media (max-width: 515px) {
+    .AdminChoose .twodiv {
+      gap: 18%;
+      
+    }
+    .AdminChoose h1{
+        font-size: 30px;
+    }
+  
+    .AdminChoose .onediv img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  @media (max-width: 440px) {
+    .AdminChoose .twodiv {
+      gap: 3%;
+      flex-direction: column;
+      
+    }
+    .AdminChoose h1{
+        font-size: 27px;
+    }
+    .AdminChoose .onediv{
+        width: 80%;
+    
+    }
+    
+
+
+  
+
+  }

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+.lawyerInfo {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 20px;
+ 
+  }
+h1{
+  font-family: 'Lora';
+  font-weight: normal;
+
+}
+  
+  .lawyerInfo h2 {
+    color: #dab650;
+    margin-top: 0;
+    font-family: 'EB Garamond';
+    font-weight: 500;
+
+  }
+  .acc{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-left: 40px;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .RefConf button{
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    background-color: #DAB650;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Jost';
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  
+  

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+body {
+    background-color:#0B0E15; /* Fond du corps en noir */
+    color: white; /* Texte du corps en blanc */
+}
+
+.left-block {
+    float: left;
+    width: 25%;
+}
+
+.right-block {
+    float: right;
+    width: 75%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.space-between {
+    margin-right: 10px;
+}
+
+.ProfilLawyer {
+    margin: 50px;
+}
+
+.ProfilLawyer h1,
+.ProfilLawyer h2,
+.ProfilLawyer h3,
+.ProfilLawyer p {
+    color: white;
+}
+
+.ProfilLawyer .etoile {
+    color: yellow; 
+    font-size: 30px;
+}
+
+.ProfilLawyer .logo{
+    max-width: 25px; /* Ajustez la taille maximale des logos selon vos préférences */
+    height: auto;
+}
+
+/* Ajouter ces styles pour personnaliser la modal */
+/* Profil.css */
+
+.buttonEdit {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    background-color: black;
+    color: rgba(218, 182, 80, 1);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid rgba(218, 182, 80, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .buttonEdit:hover {
+    transform: scale(1.1); /* Ajustez la valeur pour l'effet de zoom au survol */
+  }
+  
+  /* Style du bouton au clic */
+  .buttonEdit:active {
+    background-color: rgba(218, 182, 80, 1);
+    color: black;
+  }
+
+
+  .ProfilLawyer textarea.diff {
+    width: 100%;
+    height: 150px; 
+    padding: 10px;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+.ProfilLawyer input{
+    background: black;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+  
